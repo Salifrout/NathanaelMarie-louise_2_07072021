@@ -22,7 +22,7 @@ justify-content: space-between;
 }
 
 #àMarseille {
-display: flex;	
+
 }
 
 #hébergementMarseille {
@@ -38,8 +38,16 @@ display: flex;
 flex-wrap: wrap;
 }
 
+.annonceM {
+	width: 17%;
+	padding: 0.3%;
+	border-radius: 12%;
+	background-color: white; 
+	display: flex;
+	flex-direction: column;
+}
 
-#Cannebière {
+#leport {
 	width: 17%;
 	padding: 0.3%;
 	border-radius: 12%;
@@ -50,23 +58,38 @@ flex-wrap: wrap;
 
 <--!ne pas oublier les ombres dans les annonces-->
 
-#port {
-	border: 0.3% solid blue;
-	display: flex;
-	flex-direction: column;
-}
-
 .photo {
 	width: 95.9%;
+	border-radius: 12% 12% 0 0;
 }
 
 #populaire {
+	width: : ???????;
 margin-left: auto;
+background-color: ????????;
+border-radius: 12%;
+display: flex;
+flex-direction: column;
+}
+
+#lespopulaires {
+display: flex;
+?????????: space-between;	
+}
+
+.populaireM {
+	width: ??????;
+background-color: white;
+border-radius: 12%;
+}
+
+.photos {
+	width: : ??????;
+border-radius: 12% 0 0 12%;
 }
 
 #logo {
 	width: 92px;
-
 }
 
 nav {
