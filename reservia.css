@@ -30,6 +30,7 @@ flex-direction: row;
 width: 65%;
 margin-right: 3%;
 padding: 50px 3% 50px 3%;
+border: 1% #f2f2f2 solid;
 border-radius: : 12%;
 background-color: #f2f2f2;
 display: flex;
@@ -50,11 +51,17 @@ flex-wrap: wrap;
 	flex-direction: column;
 }
 
-<--!ne pas oublier les ombres dans les annonces-->
+/* ne pas oublier les ombres dans les annonces */
 
 .photo {
 	width: 95.9%;
 	border-radius: 12% 12% 0 0;
+}
+
+aside {
+	width: 29.2%;
+	background-color: #f2f2f2;
+	border-radius: 12%;
 }
 
 #populaire {
@@ -87,20 +94,22 @@ border-radius: 12% 0 0 12%;
 }
 
 nav {
-	width: 380px;
-	padding-left: 52px;
+	width: 26.4%;
+	padding-left: 1.9%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 #menu1, #menu3 {
 	color: #0065fc;
 }
 
-aside {
-	background-color: #f2f2f2;
-	border-radius: : 12%;
+#menu2 {
+padding-left: 18.2%;
+padding-right: 18.2%;
 }
+
+/* padding: 0 18.2 0 18.2%; */
 
 footer {
 	margin: 
