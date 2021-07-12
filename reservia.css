@@ -29,8 +29,27 @@ justify-content: space-between;
 }
 
 #entrée de recherche {
+	width: 29.4%;
 	display: flex;
 	flex-direction: row;
+}
+
+#localisation {
+	width: 13%;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+}
+
+#zonederecherche {
+	width: 55.3%;
+}
+
+#rechercher {
+	width: 31.7%;
+	color: white;
+	background-color: #0065fc;
+	justify-content: center;
 }
 
 #mix {
