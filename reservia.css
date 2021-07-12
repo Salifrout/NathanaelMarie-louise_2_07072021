@@ -3,13 +3,29 @@ a {
 	color: inherit;
 }
 
+@font-face {
+	font-family: 'Raleway';
+	src: url('raleway/Raleway-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Raleway-Regular', Raleway, serif;
+}
+
 #divbody {
-	padding: 3.1% 3.2% 0 3.6%;
+	padding-top: 25px;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
 }
 
 header {
+	padding-bottom: 50px;
 display: flex;
 justify-content: space-between;
+}
+
+#logo {
+	width: 6.4%;
 }
 
 #entrée de recherche {
@@ -25,13 +41,13 @@ justify-content: space-between;
 display: flex;
 flex-direction: row;
 }
-
+/* 65 */
 #hébergementMarseille {
-width: 65%;
+width: 65.7%;
 margin-right: 3%;
 padding: 50px 3% 50px 3%;
 border: 1% #f2f2f2 solid;
-border-radius: : 12%;
+border-radius: 12%;
 background-color: #f2f2f2;
 display: flex;
 flex-direction: column;
@@ -43,7 +59,7 @@ flex-wrap: wrap;
 }
 
 .annonceM {
-	width: 17%;
+	width: 28.3%;
 	padding: 0.3%;
 	border-radius: 12%;
 	background-color: white; 
@@ -57,62 +73,78 @@ flex-wrap: wrap;
 	width: 95.9%;
 	border-radius: 12% 12% 0 0;
 }
-
+/* 29.2% */
 aside {
-	width: 29.2%;
+	width: 31.3%;
 	background-color: #f2f2f2;
 	border-radius: 12%;
-}
-
-#populaire {
-	width: : ???????;
-margin-left: auto;
-background-color: ????????;
-border-radius: 12%;
-display: flex;
-flex-direction: column;
+	padding-left: 9%;
+	padding-right: 9%;
+	display: flex;
+	flex-direction: column;
 }
 
 #lespopulaires {
 display: flex;
-?????????: space-between;	
+justify-content: space-between;
 }
 
 .populaireM {
-	width: ??????;
-background-color: white;
-border-radius: 12%;
+	width: 6.1%;
+	background-color: #f2f2f2;
+}
+
+.annonceP {
+	padding: 0.3%;
+	border-radius: 12%;
+	background-color: white; 
+	display: flex;
+
 }
 
 .photos {
-	width: : ??????;
+	width: 30.1%;
 border-radius: 12% 0 0 12%;
 }
 
-#logo {
-	width: 92px;
-}
 
-nav {
-	width: 26.4%;
+
+/* nav {
+	width: 28.1%;
 	padding-left: 1.9%;
 	display: flex;
-	justify-content: space-between;
-}
+	justify-content: space-between;	
+} */
 
 #menu1, #menu3 {
 	color: #0065fc;
 }
 
-#menu2 {
-padding-left: 18.2%;
-padding-right: 18.2%;
+#menu1 {
+	position: absolute;
+	right: 24%;
+	top: 53px;
 }
 
-/* padding: 0 18.2 0 18.2%; */
+#menu2 {
+	position: absolute;
+	right: 15%;
+	top: 53px;
+}
+
+#menu3 {
+	position: absolute;
+	right: 5.4%;
+	top: 53px;
+}
+
+/* #menu2 padding: 0 18.2 0 18.2%; */
+
+#menu3 {
+	font-weight: bold;
+}
 
 footer {
-	margin: 
 	height: 220px;
 	background-color: #f2f2f2;
 	display: flex;
