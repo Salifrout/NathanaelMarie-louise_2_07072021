@@ -30,8 +30,11 @@ justify-content: space-between;
 
 #entrée de recherche {
 	width: 29.4%;
+	border: 1px solid #f2f2f2;
+	border-radius: 12%;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 #localisation {
@@ -126,14 +129,50 @@ justify-content: space-between;
 border-radius: 12% 0 0 12%;
 }
 
-
-
-/* nav {
-	width: 28.1%;
-	padding-left: 1.9%;
+#actM {
 	display: flex;
-	justify-content: space-between;	
-} */
+	justify-content: space-between;
+}
+
+.VPNC {
+	width: 22.5%;
+	border-radius: 12% 12% 0 0;
+}
+
+.actMar {
+	width: 22.5%;
+	border-radius: 12% 12% 0 0;
+}
+
+.acto {
+	width: 100%;
+	height: 390px;
+	border-radius: 12% 12% 0 0;
+}
+
+.PNCV {
+	padding-left: 3%;
+	padding-top: 23px;
+	padding-bottom: 20px;
+}
+
+#actMar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#fPomègues {
+	width: 100%;
+	height: 180px;
+	border-radius: 12% 12% 0 0;
+}
+
+#iFrioul {
+	width: 100%;
+	height: 110px;
+	border-radius: 12% 12% 0 0;
+}
 
 #menu1, #menu3 {
 	color: #0065fc;
