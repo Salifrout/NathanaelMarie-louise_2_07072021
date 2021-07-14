@@ -37,9 +37,16 @@ justify-content: space-between;
 	flex-wrap: nowrap;
 }
 
+#local {
+	width: 12.4%;
+	background-color: #f2f2f2;
+	border-radius: 12% 0 0 12%;
+}
+
 #localisation {
 	width: 13%;
-	background-color: #f2f2f2;
+	padding-right: 34.6%;
+	padding-top: 16px;
 	display: flex;
 	justify-content: center;
 }
@@ -56,14 +63,63 @@ justify-content: space-between;
 }
 
 #mix {
+	width: 64.5%;
+	padding-left: 0.9%;
 	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+.filtre {
+	border: 2px solid #d9d9d9;
+	border-radius: 26%;
+	display: flex;
+}
+
+.clique {
+	width: 50px;
+	height: 50px;
+	background-color: #deebff;
+	border-radius: 50%;
+}
+
+.toff {
+	width: 18px;
+	padding-left: 16px;
+	padding-top: 18px;
+}
+
+.tri {
+	padding-left: 13px;
+	padding-right: 22px;
+	align-items: center;
+}
+
+#log500 {
+	border: 1px solid red;
+	display: flex;
+}
+/* margin-top: 35px; */
+
+#logement {
+	width: 1.7%;
+	height: 24px;
+	border: 1px solid #d9d9d9;
+	border-radius: 50%;
+	margin-right: 0.8%;
+}
+
+#ville500 {
+width: 16.7%;
+padding-left: 33.3%;
+padding-bottom: 5px;
 }
 
 #àMarseille {
 display: flex;
 flex-direction: row;
 }
-/* 65 */
+
 #hébergementMarseille {
 width: 65.7%;
 margin-right: 3%;
@@ -112,7 +168,7 @@ justify-content: space-between;
 }
 
 .populaireM {
-	width: 6.1%;
+	width: 5.2%;
 	background-color: #f2f2f2;
 }
 
@@ -141,7 +197,9 @@ border-radius: 12% 0 0 12%;
 
 .actMar {
 	width: 22.5%;
-	border-radius: 12% 12% 0 0;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 .acto {
@@ -156,12 +214,6 @@ border-radius: 12% 0 0 12%;
 	padding-bottom: 20px;
 }
 
-#actMar {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
 #fPomègues {
 	width: 100%;
 	height: 180px;
@@ -171,6 +223,18 @@ border-radius: 12% 0 0 12%;
 #iFrioul {
 	width: 100%;
 	height: 110px;
+	border-radius: 12% 12% 0 0;
+}
+
+#nDame {
+	width: 100%;
+	height: 140px;
+	border-radius: 12% 12% 0 0;
+}
+
+#pLongchamp {
+	width: 100%;
+	height: 155px;
 	border-radius: 12% 12% 0 0;
 }
 
