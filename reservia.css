@@ -49,7 +49,7 @@ border-radius: 12% 0 0 12%;
 
 #local {
 	width: 18.15%;
-	padding-left: 18px;
+	/* padding-left: 18px; */
 	/* padding-left: 34.6%; */
 	/* padding-top: 33.3%; */
 	padding-top: 16px;
@@ -58,9 +58,9 @@ border-radius: 12% 0 0 12%;
 }
 
 #localisation {
-	width: 13%;
+	width: 25.5%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 #zonederecherche {
@@ -230,6 +230,7 @@ flex-direction: column;
 #blocMarseille {
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .annonceM {
@@ -252,10 +253,13 @@ aside {
 	width: 31.3%;
 	background-color: #f2f2f2;
 	border-radius: 12%;
+	padding-top: 8%;
+	padding-bottom: 5.45%;
 	padding-left: 9%;
 	padding-right: 9%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 #lespopulaires {
@@ -288,7 +292,8 @@ border-radius: 12% 0 0 12%;
 
 .VPNC {
 	width: 22.5%;
-	border-radius: 12% 12% 0 0;
+	border-radius: 12% 12% 12% 12%;
+	box-shadow: 2px 2px 9px red;
 }
 
 .actMar {
@@ -314,7 +319,7 @@ border-radius: 12% 0 0 12%;
 #fPomègues {
 	width: 100%;
 	height: 180px;
-	border-radius: 12% 12% 0 0;
+	border-radius: 12% 12% 12% 12%;
 }
 
 #iFrioul {
@@ -367,6 +372,7 @@ border-radius: 12% 0 0 12%;
 footer {
 	height: 220px;
 	background-color: #f2f2f2;
+	margin-top: 60px;
 	padding-top: 52px;
 	padding-left: 3.5%;
 	padding-right: 25.6%;
