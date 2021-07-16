@@ -65,6 +65,7 @@ border-radius: 12% 0 0 12%;
 
 #zonederecherche {
 	width: 81.85%;
+	padding-left: 7.7%;
 }
 
 #para {
@@ -88,6 +89,7 @@ font-weight: bold;
 }
 
 #mix {
+	margin-top: 23px;
 	width: 64.5%;
 	padding-left: 0.9%;
 	border: 1px solid green;
@@ -188,13 +190,15 @@ font-weight: bold;
 }
 
 #log500 {
+	margin-bottom: 25px;
 	border: 1px solid red;
 	display: flex;
 }
 /* margin-top: 35px; */
 
 #logement {
-	width: 1.7%;
+	/* width: 1.7%; */
+	width: 24px;
 	height: 24px;
 	border: 1px solid #d9d9d9;
 	border-radius: 50%;
@@ -304,6 +308,7 @@ border-radius: 12% 0 0 12%;
 	padding-left: 3%;
 	padding-top: 23px;
 	padding-bottom: 20px;
+	font-weight: bold;
 }
 
 #fPomègues {
@@ -335,6 +340,7 @@ border-radius: 12% 0 0 12%;
 }
 
 #menu1 {
+	border-top: 2px solid #0065fc;
 	position: absolute;
 	right: 24%;
 	top: 53px;
@@ -361,6 +367,9 @@ border-radius: 12% 0 0 12%;
 footer {
 	height: 220px;
 	background-color: #f2f2f2;
+	padding-top: 52px;
+	padding-left: 3.5%;
+	padding-right: 25.6%;
 	display: flex;
 	justify-content: space-around;
 }
