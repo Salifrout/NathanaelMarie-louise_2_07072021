@@ -13,7 +13,6 @@ body {
 }
 
 #divbody {
-	padding-top: 25px;
 	padding-left: 3.5%;
 	padding-right: 3.5%;
 }
@@ -26,12 +25,13 @@ justify-content: space-between;
 
 #logo {
 	width: 6.4%;
+	padding-top: 25px;
 }
 
 #entréederecherche {
 	width: 29.4%;
 	height: 51px;
-	border-radius: 12%;
+	border-radius: 18%;
 	display: flex;
 	flex-wrap: nowrap;
 }
@@ -44,7 +44,7 @@ justify-content: space-between;
 	border-left-color: #f2f2f2;
 	border-right-color: #0065fc;
 	display: flex;
-border-radius: 12% 0 0 12%;
+border-radius: 18% 0 0 18%;
 }
 
 #local {
@@ -54,38 +54,36 @@ border-radius: 12% 0 0 12%;
 	/* padding-top: 33.3%; */
 	padding-top: 16px;
 	background-color: #f2f2f2;
-	border-radius: 12% 0 0 12%;
+	border-radius: 18% 0 0 18%;
 }
 
 #localisation {
 	width: 25.5%;
+	padding-left: 41.2%;
 	display: flex;
-	justify-content: space-around;
-}
-
-#zonederecherche {
-	width: 81.85%;
-	padding-left: 7.7%;
+	/* justify-content: space-around; */
 }
 
 #para {
+	width: 81.85%;
+	padding-left: 7.7%;
+	height: 100%;
 	font-weight: bold;
+	border-top-color: #f2f2f2;
+	border-left-color: #f2f2f2;
+	border-bottom-color: #f2f2f2;
+	border-right-color: #0065fc;
 }
 
 #graph {
-font-weight: bold;
-}
-
-#rechercher {
 	width: 32.55%;
 	height: 100%;
 	/* padding-left: 14.1%; */
 	color: white;
 	border: 1px solid #0065fc;
-	border-radius: 0 12% 12% 0;
+	border-radius: 0 18% 18% 0;
 	background-color: #0065fc;
-	display: flex;
-	justify-content: space-around;
+	font-weight: bold;
 }
 
 #mix {
@@ -102,61 +100,70 @@ font-weight: bold;
 #filtre1 {
 	width: 20.9%;
 	border: 2px solid #d9d9d9;
-	border-radius: 26%;
+	border-radius: 50px;
 	display: flex;
 }
 
 #filtre2 {
 	width: 16.45%;
 	border: 2px solid #d9d9d9;
-	border-radius: 26%;
+	border-radius: 50px;
 	display: flex;
 }
 
 #filtre3 {
 	width: 19.9%;
 	border: 2px solid #d9d9d9;
-	border-radius: 26%;
+	border-radius: 50px;
 	display: flex;
 }
 
 #filtre4 {
 	width: 26%;
 	border: 2px solid #d9d9d9;
-	border-radius: 26%;
+	border-radius: 50px;
 	display: flex;
 }
 
 #clique1 {
 	width: 25.8%;
 	height: 100%;
+	/* width: 50px;
+	height: 50px; */
 	background-color: #deebff;
 	border-radius: 50%;
 }
 
 #clique2 {
-	width: 32.7%;
-	height: 100%;
+	/* width: 32.7%;
+	height: 100%; */
+	width: 50px;
+	height: 50px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
 
 #clique3 {
-	width: 27%;
-	height: 100%;
+	/* width: 27%;
+	height: 100%; */
+	width: 50px;
+	height: 50px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
 
 #clique4 {
-	width: 20.7%;
-	height: 100%;
+	/* width: 20.7%;
+	height: 100%; */
+	width: 50px;
+	height: 50px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
 
 .toff {
 	width: 36%;
+	/* width: 50px; */
 	padding-left: 32%;
 	padding-top: 36%;
 }
@@ -203,12 +210,13 @@ font-weight: bold;
 	border: 1px solid #d9d9d9;
 	border-radius: 50%;
 	margin-right: 0.8%;
+	margin-top: 12px;
 }
 
 #ville500 {
 width: 16.7%;
-padding-left: 33.3%;
-padding-bottom: 5px;
+padding-left: 40.3%;
+/* padding-bottom: 1px; */
 }
 
 #àMarseille {
@@ -219,9 +227,9 @@ flex-direction: row;
 #hébergementMarseille {
 width: 65.7%;
 margin-right: 3%;
-padding: 50px 3% 50px 3%;
+padding: 52px 3% 52px 3%;
 border: 1% #f2f2f2 solid;
-border-radius: 12%;
+border-radius: 8%;
 background-color: #f2f2f2;
 display: flex;
 flex-direction: column;
@@ -233,10 +241,16 @@ flex-wrap: wrap;
 justify-content: space-between;
 }
 
+Marseille {
+	margin-top: 52px;
+	margin-bottom: 18px;
+}
+
 .annonceM {
 	width: 28.3%;
-	padding: 0.3%;
-	border-radius: 12%;
+	/* padding: 0.3%; */
+	padding: 0.6%;
+	border-radius: 8%;
 	background-color: white; 
 	display: flex;
 	flex-direction: column;
@@ -246,13 +260,20 @@ justify-content: space-between;
 
 .photo {
 	width: 95.9%;
-	border-radius: 12% 12% 0 0;
+	border-radius: 8% 8% 0 0;
+	margin: 2.1%;
 }
 /* 29.2% */
+
+.lieu {
+	margin-top: 13px;
+	margin-left: 6.9%;
+}
+/* 14px */
 aside {
 	width: 31.3%;
 	background-color: #f2f2f2;
-	border-radius: 12%;
+	border-radius: 8%;
 	padding-top: 8%;
 	padding-bottom: 5.45%;
 	padding-left: 9%;
@@ -277,7 +298,6 @@ justify-content: space-between;
 	border-radius: 12%;
 	background-color: white; 
 	display: flex;
-
 }
 
 .photos {
@@ -348,7 +368,9 @@ border-radius: 12% 0 0 12%;
 	border-top: 2px solid #0065fc;
 	position: absolute;
 	right: 24%;
-	top: 53px;
+	/* top: 53px; */
+	top: 0px;
+	padding-top: 51px; /* 25 px */
 }
 
 #menu2 {
