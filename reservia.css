@@ -98,38 +98,62 @@ border-radius: 18% 0 0 18%;
 }
 
 #filtre1 {
-	width: 20.9%;
+	/* width: 20.9%; */
+	width: 194px;
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
 	display: flex;
+}
+
+#filtre1:hover {
+background-color: #deebff;
+color: #0065fc;
 }
 
 #filtre2 {
-	width: 16.45%;
+	/* width: 16.45%; */
+	width: 152px;
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
 	display: flex;
 }
+
+#filtre2:hover {
+	background-color: #deebff;
+	color: #0065fc;
+	}
 
 #filtre3 {
-	width: 19.9%;
+	/* width: 19.9%; */
+	width: 184px;
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
 	display: flex;
 }
 
+#filtre3:hover {
+	background-color: #deebff;
+	color: #0065fc;
+	}
+
 #filtre4 {
-	width: 26%;
+	/* width: 26%; */
+	width: 242px;
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
 	display: flex;
 }
+
+#filtre4:hover {
+	background-color: #deebff;
+	color: #0065fc;
+	}
 
 #clique1 {
 	/* width: 25.8%;
 	height: 100%; */
-	width: 50px;
-	height: 50px;
+	width: 53px;
+	height: 53px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
@@ -137,8 +161,8 @@ border-radius: 18% 0 0 18%;
 #clique2 {
 	/* width: 32.7%;
 	height: 100%; */
-	width: 50px;
-	height: 50px;
+	width: 53px;
+	height: 53px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
@@ -146,8 +170,8 @@ border-radius: 18% 0 0 18%;
 #clique3 {
 	/* width: 27%;
 	height: 100%; */
-	width: 50px;
-	height: 50px;
+	width: 53px;
+	height: 53px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
@@ -155,8 +179,8 @@ border-radius: 18% 0 0 18%;
 #clique4 {
 	/* width: 20.7%;
 	height: 100%; */
-	width: 50px;
-	height: 50px;
+	width: 53px;
+	height: 53px;
 	background-color: #deebff;
 	border-radius: 50%;
 }
@@ -171,29 +195,33 @@ border-radius: 18% 0 0 18%;
 #tri1 {
 	padding-left: 6.7%;
 	padding-right: 11.3%;
-	display: flex;
-	align-items: center;
+	 /*padding-top: 1px;
+	/* display: flex;
+	/* align-items: center; */
 }
 
 #tri2 {
 	padding-left: 8.5%;
 	padding-right: 14.4%;
-	display: flex;
-	align-items: center;
+	/* padding-top: 21px;
+	/* display: flex;
+	/* align-items: center; */
 }
 
 #tri3 {
 	padding-left: 7%;
 	padding-right: 11.9%;
-	display: flex;
-	align-items: center;
+	/* padding-top: 21px;
+	/*display: flex;
+	/* align-items: center; */
 }
 
 #tri4 {
 	padding-left: 5.4%;
 	padding-right: 9.1%;
+	/* padding-top: 1px; */
 	display: flex;
-	align-items: center;
+	flex-wrap: nowrap;
 }
 
 #log500 {
@@ -229,7 +257,7 @@ width: 65.7%;
 margin-right: 3%;
 padding: 52px 3% 52px 3%;
 border: 1% #f2f2f2 solid;
-border-radius: 8%;
+border-radius: 4%;
 background-color: #f2f2f2;
 display: flex;
 flex-direction: column;
@@ -262,6 +290,7 @@ Marseille {
 
 .photo {
 	width: 95.9%;
+	height: 114px;
 	border-radius: 8% 8% 0 0;
 	margin: 2.1%;
 }
@@ -291,39 +320,82 @@ Marseille {
 	width: 17.6%;
 }
 
+#plus {
+	margin-top: 48px;
+}
+
 aside {
 	width: 31.3%;
 	background-color: #f2f2f2;
-	border-radius: 8%;
-	padding-top: 8%;
-	padding-bottom: 5.45%;
-	padding-left: 9%;
+	border-radius: 4%;
+	padding-top: 50px;
+	padding-bottom: 34px;
+	/* padding-left: 9%;
 	padding-right: 9%;
+	display: flex;
+	flex-direction: column; */
+}
+
+#center {
+	margin-left: 10.5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
 #lespopulaires {
+	width: 81.4%;
 display: flex;
-justify-content: space-between;
+/* justify-content: space-between; */
+justify-content: space-around;
+
 }
 
-.populaireM {
+#populaireM {
 	width: 5.2%;
+	height: 18px;
 	background-color: #f2f2f2;
 }
 
 .annonceP {
-	padding: 0.3%;
-	border-radius: 12%;
-	background-color: white; 
+	width: 81.7%;
+	height: 144px;
+	padding: 1.5%;
+	/* border-radius: 12%; */
+	border-radius: 8%;
+	background-color: white;
+	box-shadow: 1px 1px 3px #e7e7e7; 
 	display: flex;
 }
 
 .photos {
-	width: 30.1%;
-border-radius: 12% 0 0 12%;
+	width: 37%;
+	height: 134px;
+	margin-right: 21px;
+	border-radius: 12% 0 0 12%;
+}
+
+.asi {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.étoiles {
+	width: 19.8%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.stars {
+	width: 25%;
+}
+
+#ActivM {
+	margin-top: 70px;
+	margin-bottom: 27px;
 }
 
 #actM {
@@ -334,13 +406,15 @@ border-radius: 12% 0 0 12%;
 .VPNC {
 	width: 22.5%;
 	border-radius: 12% 12% 12% 12%;
-	box-shadow: 2px 2px 9px red;
+	box-shadow: 2px 2px 4px #f4f4f4;
+	box-shadow: -2px 2px 4px #f4f4f4;
 }
 
 .actMar {
 	width: 22.5%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 .acto {
@@ -351,15 +425,29 @@ border-radius: 12% 0 0 12%;
 
 .PNCV {
 	padding-left: 3%;
-	padding-top: 23px;
+	/* padding-top: 23px; */
 	padding-bottom: 20px;
 	font-weight: bold;
+}
+
+#fortpomègues {
+	height: 236px;
+	border-radius: 12% 12% 12% 12%;
+	box-shadow: 2px 2px 4px #f4f4f4;
+	box-shadow: -2px 2px 4px #f4f4f4;
 }
 
 #fPomègues {
 	width: 100%;
 	height: 180px;
+	border-radius: 12% 12% 0 0;
+}
+
+#ilesdufrioul {
+	height: 165px;
 	border-radius: 12% 12% 12% 12%;
+	box-shadow: 2px 2px 4px #f4f4f4;
+	box-shadow: -2px 2px 4px #f4f4f4;
 }
 
 #iFrioul {
@@ -368,10 +456,24 @@ border-radius: 12% 0 0 12%;
 	border-radius: 12% 12% 0 0;
 }
 
+#nddlg {
+	height: 195px;
+	border-radius: 12% 12% 12% 12%;
+	box-shadow: 2px 2px 4px #f4f4f4;
+	box-shadow: -2px 2px 4px #f4f4f4;
+}
+
 #nDame {
 	width: 100%;
 	height: 140px;
 	border-radius: 12% 12% 0 0;
+}
+
+#parclongchamp {
+	height: 209px;
+	border-radius: 12% 12% 12% 12%;
+	box-shadow: 2px 2px 4px #f4f4f4;
+	box-shadow: -2px 2px 4px #f4f4f4;
 }
 
 #pLongchamp {
