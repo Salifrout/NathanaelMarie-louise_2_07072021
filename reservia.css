@@ -377,12 +377,14 @@ justify-content: space-between;
 
 .photos {
 	width: 37%;
-	height: 134px;
+	/* height: 134px; */
+	height: auto;
 	margin-right: 21px;
 	border-radius: 12% 0 0 12%;
 }
 
 .asi {
+	width: 40.2%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -391,13 +393,13 @@ justify-content: space-between;
 }
 
 .étoiles {
-	width: 19.8%;
+	width: 50.7%;
 	display: flex;
 	justify-content: space-between;
 }
 
 .stars {
-	width: 25%;
+	width: 17.1%;
 }
 
 #ActivM {
@@ -433,7 +435,7 @@ justify-content: space-between;
 .PNCV {
 	padding-left: 3%;
 	/* padding-top: 23px; */
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 	font-weight: bold;
 }
 
