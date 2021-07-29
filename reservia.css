@@ -23,7 +23,7 @@ header {
 	justify-content: space-between;
 }
 
-#logo {
+header img {
 	width: 6.4%;
 	margin-top: 25px;
 }
@@ -81,14 +81,14 @@ header {
 	border-radius: 18px 0 0 18px;
 }
 
-#localisation {
+#local img {
 	width: 25.5%;
 	margin-left: 41.2%;
 	display: flex;
 	/* justify-content: space-around; */
 }
 
-#para {
+#entrée input {
 	width: 81.85%;
 	padding-left: 7.7%;
 	height: 100%;
@@ -154,7 +154,7 @@ font-weight: bold;
 	width: 242px;
 }
 
-[id*=clique] {
+.clique {
 	/* width: 25.8%;
 	height: 100%; */
 	width: 53px;
@@ -164,7 +164,7 @@ font-weight: bold;
 	border-radius: 50px;
 }
 
-.toff {
+.clique img {
 	width: 36%;
 	/* width: 50px; */
 	padding-left: 32%;
@@ -231,15 +231,19 @@ display: flex;
 flex-direction: row;
 }
 
-#hébergementMarseille {
+#àMarseille section {
 width: 65.7%;
 margin-right: 3%;
 padding: 52px 3% 52px 3%;
 border: 1% #f2f2f2 solid;
-border-radius: 4%;
+border-radius: 18px;
 background-color: #f2f2f2;
 display: flex;
 flex-direction: column;
+}
+
+#àMarseille section h1 {
+	margin-bottom: 18px;
 }
 
 #blocMarseille {
@@ -248,17 +252,12 @@ flex-wrap: wrap;
 justify-content: space-between;
 }
 
-Marseille {
-	margin-top: 52px;
-	margin-bottom: 18px;
-}
-
-.annonceM {
+#blocMarseille a {
 	width: 28.3%;
 	/* padding: 0.3%; */
 	padding: 0.6%;
 	margin-bottom: 26px;
-	border-radius: 8%;
+	border-radius: 22px;
 	background-color: white;
 	box-shadow: 1px 1px 3px #e7e7e7; 
 	display: flex;
@@ -270,7 +269,7 @@ Marseille {
 .photo {
 	width: 95.9%;
 	height: 114px;
-	border-radius: 8% 8% 0 0;
+	border-radius: 18px 18px 0 0;
 	margin: 2.1%;
 }
 /* 29.2% */
@@ -282,7 +281,7 @@ Marseille {
 /* 14px */
 
 .prix {
-	margin-top: 6px;
+	margin-top: -12px;
 	margin-left: 6.9%;
 	margin-bottom: 6px;
 }
@@ -295,24 +294,28 @@ Marseille {
 	justify-content: space-between;
 }
 
-.oto {
+.étoile img {
 	width: 17.6%;
 }
 
 aside {
 	width: 31.3%;
 	background-color: #f2f2f2;
-	border-radius: 4%;
-	padding-top: 50px;
-	padding-bottom: 34px;
+	border-radius: 18px;
+	/* padding-top: 50px; */
+	 /*padding-bottom: 34px; */
 	/* padding-left: 9%;
 	padding-right: 9%;
 	display: flex;
 	flex-direction: column; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #lespopulaires {
 	width: 76.4%;
+	margin-top: 50px;
 	margin-left: 11.5%;
 	margin-right: 11.5%;
 	/* padding-bottom: 24px; */
@@ -321,29 +324,22 @@ aside {
 	justify-content: space-between;
 }
 
-#center {
-	margin-left: 12.5%;
-	/* margin-bottom: 34px; */
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-#populaireM {
+#lespopulaires img {
 	width: 5.2%;
 	height: 18px;
-	margin-top: 20px;
+	margin-top: 25px;
 	background-color: #f2f2f2;
 }
 
-.annonceP {
-	width: 81.7%;
+aside a {
+	width: 71.9%; 
 	height: 144px;
 	padding: 1.5%;
+	margin-left: 12.5%;
 	/* border-radius: 12%;
 	border: 5px solid white; */
 	margin-bottom: 33px;
-	border-radius: 12%;
+	border-radius: 18px;
 	background-color: white;
 	box-shadow: 1px 1px 3px #e7e7e7; 
 	display: flex;
@@ -354,7 +350,7 @@ aside {
 	/* height: 134px; */
 	height: auto;
 	margin-right: 21px;
-	border-radius: 12% 0 0 12%;
+	border-radius: 18px 0 0 18px;
 }
 
 .asi {
@@ -372,11 +368,11 @@ aside {
 	justify-content: space-between;
 }
 
-.stars {
+.étoiles img {
 	width: 17.1%;
 }
 
-#ActivM {
+h2 {
 	margin-top: 70px;
 	margin-bottom: 27px;
 }
@@ -400,7 +396,7 @@ aside {
 	justify-content: space-between;
 }
 
-.acto {
+.VPNC img {
 	width: 100%;
 	height: 390px;
 	border-radius: 12% 12% 0 0;
