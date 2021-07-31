@@ -69,11 +69,6 @@ header img {
 	width: 18.15%;
 	border-radius: 18px 0 0 18px;
 	border: 1px solid #f2f2f2;
-	background-color: #f2f2f2;
-	background-image: url(Images/localisation.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 25.5%;
 }
 
 #entree input {
@@ -129,32 +124,16 @@ font-weight: bold;
 	width: 194px;	
 }
 
-#filtre1 div {
-	background-image: url(Images/Ibillet.png);
-}
-
 #filtre2 {
 	width: 152px;
-}
-
-#filtre2 div {
-	background-image: url(Images/Ichild.png);
 }
 
 #filtre3 {
 	width: 184px;
 }
 
-#filtre3 div {
-	background-image: url(Images/Icoeur.png);
-}
-
 #filtre4 {
 	width: 242px;
-}
-
-#filtre4 div {
-	background-image: url(Images/Idog.png);
 }
 
 [id*=filtre] div {
@@ -215,10 +194,6 @@ font-weight: bold;
 	border-radius: 50px;
 	margin-right: 0.8%;
 	margin-top: 12px;
-	background-image: url(Images/information.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 16.7%;
 }
 
 /* #log500 div img {
@@ -310,14 +285,18 @@ aside {
 	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
+	background-color: #f2f2f2;
+	background-image: url(Images/Growup.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 5.2%;
 }
 
-#lespopulaires img {
+/* #lespopulaires img {
 	width: 5.2%;
 	height: 18px;
 	margin-top: 25px;
-	background-color: #f2f2f2;
-}
+} */
 
 aside a {
 	width: 71.9%; 
