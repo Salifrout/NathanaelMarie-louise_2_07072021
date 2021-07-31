@@ -91,6 +91,7 @@ header img {
 	border-radius: 0 18px 18px 0;
 	background-color: #0065fc;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 #other {
@@ -112,6 +113,7 @@ header img {
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
 	display: flex;
+	cursor: pointer;
 }
 
 [id*=filtre]:hover {
@@ -145,19 +147,6 @@ font-weight: bold;
 	background-position: center;
 	background-size: 36%;
 }
-
-/* .clique {
-	width: 53px;
-	height: 53px;
-	background-color: #deebff;
-	border-radius: 50px;
-} */
-
-/* .clique img {
-	width: 36%;
-	padding-left: 32%;
-	padding-top: 36%;
-} */
 
 #tri1 {
 	padding-left: 6.7%;
@@ -195,11 +184,6 @@ font-weight: bold;
 	margin-right: 0.8%;
 	margin-top: 12px;
 }
-
-/* #log500 div img {
-width: 16.7%;
-padding-left: 40.3%;
-} */
 
 #àMarseille {
 display: flex;
@@ -256,16 +240,14 @@ justify-content: space-between;
 	margin-bottom: 6px;
 }
 
-.étoile {
+.prix ~ img {
 	width: 27.5%;
 	margin-left: 6.9%;
 	margin-bottom: 6px;
-	display: flex;
-	justify-content: space-between;
 }
 
-.étoile img {
-	width: 17.6%;
+#blocMarseille + p {
+	cursor: pointer;
 }
 
 aside {
@@ -278,10 +260,9 @@ aside {
 }
 
 #lespopulaires {
-	width: 76.4%;
+	width: 82.4%;
 	margin-top: 22px;
-	margin-left: 11.5%;
-	margin-right: 11.5%;
+	margin-left: 8.5%;
 	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
@@ -292,17 +273,11 @@ aside {
 	background-size: 5.2%;
 }
 
-/* #lespopulaires img {
-	width: 5.2%;
-	height: 18px;
-	margin-top: 25px;
-} */
-
 aside a {
-	width: 71.9%; 
+	width: 78.9%; 
 	height: 144px;
 	padding: 1.5%;
-	margin-left: 12.5%;
+	margin-left: 9%;
 	margin-bottom: 28px;
 	border-radius: 18px;
 	background-color: white;
@@ -326,14 +301,8 @@ aside a {
 	padding-bottom: 10px;
 }
 
-.étoiles {
+.asi img {
 	width: 50.7%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.étoiles img {
-	width: 17.1%;
 }
 
 h2 {

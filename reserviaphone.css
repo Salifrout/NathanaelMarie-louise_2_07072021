@@ -121,6 +121,7 @@ header + p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 34.6%;
+    cursor: pointer;
 }
 
 #mix {
