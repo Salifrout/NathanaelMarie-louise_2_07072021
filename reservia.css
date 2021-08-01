@@ -19,13 +19,13 @@ body {
 
 header {
 	margin-bottom: 50px;
-	display: flex;
-	justify-content: space-between;
+	/* display: flex;
+	justify-content: space-between; */
 }
 
 header img {
 	width: 89px;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 #menu1, #menu3 {
@@ -101,7 +101,6 @@ header img {
 #mix {
 	margin-top: 23px;
 	width: 64.5%;
-	padding-left: 0.9%;
 	border: 1px solid green;
 	display: flex;
 	justify-content: space-between;
@@ -109,9 +108,14 @@ header img {
 	margin-bottom: 35px; 
 }
 
+#mix p:nth-child(1) {
+    padding-left: 0.9%;
+}
+
 [id*=filtre] {
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
+	font-weight: bold;
 	display: flex;
 	cursor: pointer;
 }
