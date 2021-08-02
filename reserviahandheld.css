@@ -127,14 +127,12 @@ aside a {
 
 #àMarseille section {
     order: 2;
-    width: 89%;
-	margin-left: 5.3%;
+    width: 100%;
+	margin-left: -5.5%;
     margin-top: 0;
-    margin-bottom: 28px;
+	border: none;
     background-color: white;
-    border-radius: 18px;
-    display: flex;
-    flex-direction: column;
+    border-radius: inherit;
 }
 
 #hébergementMarseille {
@@ -143,97 +141,62 @@ aside a {
 }
 
 #blocMarseille {
-    display: flex;
+	width: 100%;
+	margin-left: 5.9%;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 #blocMarseille a {
-	width: 89%;
-	padding: 0.6%;
+	width: 94%;
+	margin-left: -2%;
 	margin-bottom: 12px;
-	border-radius: 22px;
-	background-color: white;
-	box-shadow: 1px 1px 3px #e7e7e7; 
-	display: flex;
-	flex-direction: column;
 }
 
 .photo {
-	width: 95.9%;
-	height: 114px;
-	border-radius: 18px 18px 0 0;
-	margin: 2.1%;
-}
-
-.lieu {
-	margin-top: 6px;
-	margin-left: 6.9%;
-}
-
-.prix {
-	margin-top: -12px;
-	margin-left: 6.9%;
-	margin-bottom: 6px;
+	height: 174px;
 }
 
 h2 {
+	margin-top: 20px;
 	margin-left: 22px;
-	margin-bottom: 33px;
 }
 
 #actM {
+	margin-left: -5.5%;
     margin-bottom: 21px;
-	display: flex;
     flex-direction: column;
-	justify-content: space-between;
 }
 
 .VPNC {
-	width: 89%;
+	width: 91%;
     margin-left: 5.3%;
     margin-bottom: 24px;
-	border-radius: 24px;
-	box-shadow: 2px 2px 4px #f4f4f4;
-	box-shadow: -2px 2px 4px #f4f4f4;
+}
 
+.actMar {
+	width: 100%;
 }
 
 .actMar a {
-    width: 89%;
+    width: 91%;
     margin-left: 5.3%;
     margin-bottom: 24px;
-	border-radius: 24px;
-	box-shadow: 2px 2px 4px #f4f4f4;
-	box-shadow: -2px 2px 4px #f4f4f4;
 }
 
-.VPNC img {
-	width: 100%;
-	height: 130px;
-	border-radius: 24px 24px 0 0;
+.VPNC, #fortpomègues, #ilesdufrioul, #nddlg, #parclongchamp {
+	height: 240px;
 }
 
-.actMar a img {
-    width: 100%;
-	height: 130px;
-	border-radius: 24px 24px 0 0;
-}
-
-.PNCV {
-	padding-left: 3%;
-	font-weight: bold;
+.VPNC img, #fPomègues, #iFrioul, #nDame, #pLongchamp {
+	height: 180px;
 }
 
 footer {
-	background-color: #f2f2f2;
 	margin: 0px -8px -20px -8px;
 	padding-top: 52px;
 	padding-left: 8%;
     padding-bottom: 50px;
-	display: flex;
     flex-direction: column;
-	justify-content: space-between;
 }
 
 footer div {
