@@ -2,6 +2,10 @@
 padding: none;
 }
 
+header {
+    display: inherit;
+}
+
 header img {
     position: absolute;
     top: 40px;
@@ -12,9 +16,9 @@ header img {
 #menu1 {
     position: inherit;
     display: inline-block;
-    width: 60.5%;
+    width: 61.2%;
     margin-top: 46px;
-    margin-left: -15%;
+    margin-left: -16.5%;
     border-top: none;
     border-bottom: 3px solid #0065fc;
     padding-bottom: 17px;
@@ -24,7 +28,7 @@ header img {
 #menu2 {
     position: inherit;
     display: inline-block;
-    width: 60.5%;
+    width: 61.3%;
     margin-top: 46px;
     margin-left: -1.07%;
     margin-right: -6%;

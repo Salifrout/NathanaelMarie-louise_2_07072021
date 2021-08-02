@@ -19,13 +19,14 @@ body {
 
 header {
 	margin-bottom: 50px;
-	/* display: flex;
-	justify-content: space-between; */
+	display: flex;
+	justify-content: space-between;
 }
 
 header img {
 	width: 89px;
 	margin-top: 30px;
+	cursor: pointer;
 }
 
 #menu1, #menu3 {
@@ -285,7 +286,7 @@ aside a {
 	margin-bottom: 28px;
 	border-radius: 18px;
 	background-color: white;
-	box-shadow: 1px 1px 3px #e7e7e7; 
+	box-shadow: 1px 1px 3px #e7e7e7;
 	display: flex;
 }
 

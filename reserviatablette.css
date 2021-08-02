@@ -1,0 +1,167 @@
+ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#menu1, #menu2, #menu3 {
+    position: inherit;
+    border-top: none;
+    display: inline-block;
+    width: 110%;
+    padding-bottom: 2px;
+} 
+
+#menu1 {
+    border-bottom: 3px solid #0065fc;
+    text-align: left;
+}
+    
+#menu2 {
+    border-bottom: 3px solid #f2f2f2;
+    text-align: center;
+}
+
+#menu3 {
+    border-bottom: 3px solid black;
+    text-align: right;
+}
+
+#entreederecherche {
+	width: 88.8%;
+	height: 52px;
+    margin: auto;
+	margin-bottom: 60px;
+}
+
+#entree {
+	width: 84.4%;
+}
+
+#local {
+	width: 17.8%;
+	padding-top: 16px;
+}
+
+#entree input {
+	width: 82.2%;
+	padding-left: 6.05%;
+	height: 100%;
+}
+
+#graph {
+	display: none;
+}
+
+#other {
+    display: block;
+	width: 15.6%;
+    height: 100%;
+	margin-left: -2px;
+	border: 1px solid #0065fc;
+	border-radius: 0 18px 18px 0;
+	background-color: #0065fc;
+    background-image: url(Images/Iloupe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 34.6%;
+    cursor: pointer;
+}
+
+#mix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#log500 div {
+	margin-right: 3%;
+}
+
+#àMarseille {
+flex-direction: column;
+}
+
+aside {
+    order: 1;
+	width: 95%;
+    margin: 2.4%;
+	padding-bottom: 25px;
+    border-radius: 18px;
+}
+
+#lespopulaires {
+	margin-top: 15px;
+}
+
+aside a {
+	margin-bottom: 18px;
+    box-shadow: 3px 3px 9px #e7e7e7;
+}
+
+#àMarseille section {
+    order: 2;
+    width: 100%;
+	margin-left: -5.5%;
+    margin-top: 0;
+	border: none;
+    background-color: white;
+    border-radius: inherit;
+}
+
+#hébergementMarseille {
+    margin-left: 5.3%;
+    margin-top: 24px;
+}
+
+#blocMarseille {
+	width: 94%;
+    margin-left: 5.9%;
+    flex-direction: row;
+}
+
+#blocMarseille a {
+	width: 45%;
+	margin-left: -2%;
+	margin-bottom: 18px;
+    box-shadow: 3px 3px 3px #e7e7e7;
+}
+
+.photo {
+	height: 174px;
+}
+
+#blocMarseille + p {
+    margin-left: 5.3%;
+}
+
+h2 {
+	margin-top: 20px;
+	margin-left: 22px;
+}
+
+#actM {
+    margin-bottom: 21px;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.VPNC {
+	width: 45%;
+    margin-bottom: 24px;
+}
+
+.actMar {
+	width: 45%;
+}
+
+.actMar a {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+footer {
+	margin: 0px -8px -20px -8px;
+	padding: 52px 3.5% 55px 3.5%;
+}
