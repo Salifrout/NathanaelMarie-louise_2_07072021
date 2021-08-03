@@ -80,7 +80,6 @@ header img {
 	border-top-color: #f2f2f2;
 	border-left-color: #f2f2f2;
 	border-bottom-color: #f2f2f2;
-	border-right-color: none;
 }
 
 #graph {
@@ -88,7 +87,8 @@ header img {
 	height: 100%;
 	margin-left: -0.6%;
 	color: white;
-	border: 1px solid #0065fc;
+	/* border: 1px solid #0065fc; */
+	border: none;
 	border-radius: 0 18px 18px 0;
 	background-color: #0065fc;
 	font-weight: bold;
@@ -199,7 +199,7 @@ flex-direction: row;
 width: 65.7%;
 margin-right: 3%;
 padding: 22px 3%;
-border: 1% #f2f2f2 solid;
+border: 1px #f2f2f2 solid;
 border-radius: 18px;
 background-color: #f2f2f2;
 display: flex;
