@@ -10,6 +10,7 @@ a {
 
 body {
 	font-family: 'Raleway-Regular', Raleway, serif;
+	margin: 0;
 }
 
 #divbody {
@@ -27,6 +28,10 @@ header img {
 	width: 89px;
 	margin-top: 30px;
 	cursor: pointer;
+}
+
+nav {
+	padding: 0;
 }
 
 #menu1, #menu3 {
@@ -87,7 +92,6 @@ header img {
 	height: 100%;
 	margin-left: -0.6%;
 	color: white;
-	/* border: 1px solid #0065fc; */
 	border: none;
 	border-radius: 0 18px 18px 0;
 	background-color: #0065fc;
@@ -102,7 +106,6 @@ header img {
 #mix {
 	margin-top: 23px;
 	width: 64.5%;
-	border: 1px solid green;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -114,6 +117,7 @@ header img {
 }
 
 [id*=filtre] {
+	margin-left: 1.7%;
 	border: 2px solid #d9d9d9;
 	border-radius: 50px;
 	font-weight: bold;
@@ -177,7 +181,6 @@ font-weight: bold;
 
 #log500 {
 	margin-bottom: 25px;
-	border: 1px solid red;
 	display: flex;
 }
 
@@ -199,7 +202,6 @@ flex-direction: row;
 width: 65.7%;
 margin-right: 3%;
 padding: 22px 3%;
-border: 1px #f2f2f2 solid;
 border-radius: 18px;
 background-color: #f2f2f2;
 display: flex;
@@ -268,7 +270,6 @@ aside {
 	width: 82.4%;
 	margin-top: 22px;
 	margin-left: 8.5%;
-	border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
 	background-color: #f2f2f2;
@@ -399,7 +400,7 @@ h2 {
 
 footer {
 	background-color: #f2f2f2;
-	margin: 60px -8px -8px -8px;
+	margin: 60px 0 -8px 0;
 	padding: 52px 25.6% 55px 3.5%;
 	display: flex;
 	justify-content: space-between;

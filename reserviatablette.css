@@ -1,5 +1,4 @@
 nav {
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,8 +57,7 @@ nav {
     display: block;
 	width: 15.6%;
     height: 100%;
-	margin-left: -2px;
-	border: 1px solid #0065fc;
+	margin-left: -0.6%;
 	border-radius: 0 18px 18px 0;
 	background-color: #0065fc;
     background-image: url(Images/Iloupe.png);
@@ -69,10 +67,8 @@ nav {
     cursor: pointer;
 }
 
-#mix {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+[id*=filtre] {
+    margin-bottom: 13px;
 }
 
 #log500 div {
@@ -103,21 +99,20 @@ aside a {
 #àMarseille section {
     order: 2;
     width: 100%;
-	margin-left: -5.5%;
-    margin-top: 0;
-	border: none;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 3%;
     background-color: white;
     border-radius: inherit;
 }
 
 #hébergementMarseille {
-    margin-left: 5.3%;
+    margin-left: -0.5%;
     margin-top: 24px;
 }
 
 #blocMarseille {
 	width: 94%;
-    margin-left: 5.9%;
     flex-direction: row;
 }
 
@@ -162,6 +157,5 @@ h2 {
 }
 
 footer {
-	margin: 0px -8px -20px -8px;
 	padding: 52px 3.5% 55px 3.5%;
 }
